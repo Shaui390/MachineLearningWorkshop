@@ -1,0 +1,25 @@
+# 作业与数据集（≈3.1 GB，不入库）
+李宏毅机器学习2026/作业/
+
+# 大体积 PDF（扫描件等）
+*.pdf
+
+# Python 环境
+.venv/
+__pycache__/
+*.py[cod]
+
+# 编辑器
+.vscode/
+.ipynb_checkpoints/
+
+# Obsidian 本机状态（各机器路径不同，各留各的）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# 系统与临时文件
+**/.DS_Store
+Thumbs.db
+desktop.ini
+*.tmp
+*.part

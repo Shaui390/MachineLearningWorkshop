@@ -1,0 +1,16 @@
+# 文本文件在仓库里统一存成 LF（Windows 工作区保持 CRLF，靠 git 归一化比较，不会反复“改动”）
+* text=auto
+
+# 二进制，别碰
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.webp binary
+*.pdf  binary
+*.zip  binary
+*.pth  binary
+*.npy  binary
+
+# notebook 是 JSON 文本，允许 diff
+*.ipynb text
